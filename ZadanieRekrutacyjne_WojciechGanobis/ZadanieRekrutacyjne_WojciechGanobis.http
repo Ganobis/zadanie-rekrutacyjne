@@ -1,0 +1,6 @@
+@ZadanieRekrutacyjne_WojciechGanobis_HostAddress = http://localhost:5199
+
+GET {{ZadanieRekrutacyjne_WojciechGanobis_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

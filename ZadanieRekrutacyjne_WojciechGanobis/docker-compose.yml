@@ -1,0 +1,12 @@
+﻿version: '3.4'
+
+services:
+  stackoverflowtagsapi:
+    image: stackoverflowtagsapi
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
